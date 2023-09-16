@@ -2,8 +2,8 @@
 FROM node:14
 
 # Set the working directory in the container
-WORKDIR /app
-
+WORKDIR /index.html
+WORKDIR /arp.css
 # Copy the necessary files from your local directory to the container
 COPY index.html .
 COPY arp.css .
