@@ -15,6 +15,7 @@ This repository documents the setup and configuration of a highly automated Cont
   - [Jenkins Configuration](#jenkins-configuration)
   - [GitHub Integration](#github-integration)
   - [Jenkins Pipeline](#jenkins-pipeline)
+  - [Declarative SCM](#declarative-scm)
   - [Docker Hub Configuration](#docker-hub-configuration)
 - [Usage](#usage)
   - [Running the Pipeline](#running-the-pipeline)
@@ -28,8 +29,6 @@ This repository documents the setup and configuration of a highly automated Cont
 - **GitHub Repository**: The "Resume" project repository on GitHub containing the source code, Dockerfile, and web assets.
 
 - **AWS EC2 Instance**: The virtual machine hosting the Jenkins server, which is responsible for automating the CI/CD workflow.
-
-  ![Inbond rules](https://github.com/aryanpatil8605/resume/assets/110778079/c9627fad-57e9-46a0-99d7-3b03789b1c61)
 
 - **Jenkins**: An open-source automation server that manages the CI/CD workflow. Jenkins is used to build, test, and deploy the application.
 
@@ -71,6 +70,10 @@ This repository documents the setup and configuration of a highly automated Cont
 
 - Create a Jenkinsfile or declarative pipeline script to define your CI/CD pipeline stages. Include steps for cloning the repository, building the Docker image, pushing it to Docker Hub, and deploying the container.
 
+### Declarative SCM
+
+- Utilize Jenkins Declarative SCM to streamline source code management within your pipeline. Declarative SCM simplifies the integration of source control, allowing for version control and automation of repository interactions.
+
 ### Docker Hub Configuration
 
 - Ensure you have a Docker Hub account and a repository set up to store your Docker images.
@@ -100,6 +103,5 @@ This repository documents the setup and configuration of a highly automated Cont
 
 ## Author
 
-- Aryan Rakesh patil
-- More Info - https://aryanpatil8605.github.io/resume/
-
+- Aryan Rakesh Patil
+- More Info - [https://aryanpatil8605.github.io/resume/](https://aryanpatil8605.github.io/resume/)
