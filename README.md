@@ -55,7 +55,7 @@ This repository documents the setup and configuration of a highly automated Cont
 ### AWS EC2 Instance Setup
 
 - Create an AWS EC2 instance with the necessary network and security configurations.
-  [Inbond rules](https://github.com/aryanpatil8605/resume/assets/110778079/10a7b05c-0759-4f00-a1ed-0b2c50c223d7)
+  ![Inbond rules](https://github.com/aryanpatil8605/resume/assets/110778079/10a7b05c-0759-4f00-a1ed-0b2c50c223d7)
 - SSH into the instance and install Jenkins following the official guide.
 
 ### Jenkins Configuration
