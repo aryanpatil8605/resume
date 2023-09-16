@@ -85,6 +85,7 @@ This repository documents the setup and configuration of a highly automated Cont
 
 - Commit changes to your GitHub repository to trigger the Jenkins pipeline automatically.
 - Monitor pipeline progress in the Jenkins web interface under the "Builds" or "Pipelines" section.
+  ![declerative](https://github.com/aryanpatil8605/resume/assets/110778079/b19b8171-10fe-45cd-9e59-272dcc82dbce)
 
 ### Monitoring and Accessing the Application
 
