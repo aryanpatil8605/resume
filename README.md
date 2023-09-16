@@ -55,6 +55,7 @@ This repository documents the setup and configuration of a highly automated Cont
 ### AWS EC2 Instance Setup
 
 - Create an AWS EC2 instance with the necessary network and security configurations.
+  [Inbond rules](https://github.com/aryanpatil8605/resume/assets/110778079/10a7b05c-0759-4f00-a1ed-0b2c50c223d7)
 - SSH into the instance and install Jenkins following the official guide.
 
 ### Jenkins Configuration
@@ -78,6 +79,7 @@ This repository documents the setup and configuration of a highly automated Cont
 
 - Ensure you have a Docker Hub account and a repository set up to store your Docker images.
 - Configure Jenkins with Docker Hub credentials for image pushing.
+![Docker hub ](https://github.com/aryanpatil8605/resume/assets/110778079/8035771e-964e-41d2-9da1-066becdf77cf)
 
 ## Usage
 
@@ -90,6 +92,7 @@ This repository documents the setup and configuration of a highly automated Cont
 ### Monitoring and Accessing the Application
 
 - Once the pipeline is successfully completed, access the deployed web application using the EC2 instance's public IP address or domain name, typically on port 8000 (assuming port 8000 is exposed in your Docker container).
+  ![resume](https://github.com/aryanpatil8605/resume/assets/110778079/6f5646a9-521e-408e-87ad-c46ba7bacc2b)
 
 ## Troubleshooting
 
