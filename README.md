@@ -29,6 +29,8 @@ This repository documents the setup and configuration of a highly automated Cont
 
 - **AWS EC2 Instance**: The virtual machine hosting the Jenkins server, which is responsible for automating the CI/CD workflow.
 
+  ![Inbond rules](https://github.com/aryanpatil8605/resume/assets/110778079/c9627fad-57e9-46a0-99d7-3b03789b1c61)
+
 - **Jenkins**: An open-source automation server that manages the CI/CD workflow. Jenkins is used to build, test, and deploy the application.
 
 ## Getting Started
